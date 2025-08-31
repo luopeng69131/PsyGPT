@@ -2,9 +2,7 @@
   <img src="assets/chat_transparent.png" alt="PsyGPT Logo" width="100"/>
 </p>
 
-# PsyGPT
-
-
+<!-- # PsyGPT -->
 
 **PsyGPT** 是一个**抚慰心灵**的AI实时语音聊天机器人，希望能帮助用户治愈抑郁等心理问题。
 该AI采用**阿伦·贝克的认知行为疗法**作为核心治疗方法论。语音声线可由**真人声音**驱动。
