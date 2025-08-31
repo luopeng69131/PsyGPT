@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/chat_transparent.png" alt="PsyGPT Logo" width="100"/>
+  <img src="assets/chat_transparent.png" alt="PsyGPT Logo" width="200"/>
 </p>
 
 <!-- # PsyGPT -->
