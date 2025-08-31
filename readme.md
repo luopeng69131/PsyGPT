@@ -15,9 +15,9 @@
 
 运行 PsyGPT 前，需要准备以下 API key：
 
-* **Livekit key** —— 用于实时语音交互, Livekit主要提供了一个与AI实时交互的直播间（否则没有交互页面）
-* **OpenAI key** —— 建议选择合适的中转平台，问答模型使用了 `GPT-4o` （AI模型需要具有良好的心理咨询专业能力）
-* **硅基 key** —— 提供 `TTS`（语音合成）和 `STT`（语音识别）服务
+* **Livekit key**：用于实时语音交互, Livekit主要提供了一个与AI实时交互的直播间（否则没有交互页面）
+* **OpenAI key**：建议选择合适的中转平台，问答模型使用了 `GPT-4o` （AI模型需要具有良好的心理咨询专业能力）
+* **硅基 key**：提供 `TTS`（语音合成）和 `STT`（语音识别）服务
 
 
 ## 使用流程
@@ -37,18 +37,7 @@ pip install -r requirements.txt
 
 1. 在 `env.local` 文件中替换相关 key：  
 
-   ```bash
-   LIVEKIT_API_KEY=xxxxxxx
-   LIVEKIT_API_SECRET=xxxxxxx
-   LIVEKIT_URL=wss://xxxxxxx
-
-   OPENAI_API_KEY=xxxxxxx
-   OPENAI_BASE_URL=https://你的中转地址/v1
-
-   SILICONFLOW_API_KEY=xxxxxxx
-   ```
-
-2. 在 Python 脚本 `api_data` 中补充 **硅基的 key**（用于 TTS & STT）。
+2. 在PsyGPT.py的  `api_data` 变量中补充 **硅基的 key**（用于 TTS & STT）。
 
 <!-- --- -->
 
