@@ -26,8 +26,8 @@
 * **[硅基流动](https://siliconflow.cn/) key**：提供 `TTS`（语音合成）和 `STT`（语音识别）服务。
 
 * **克隆人物的语音声音**：需要提前准备 **10-30 秒的参考音频**（清晰、无噪音、自然语速的语音录音）。  
-  - 将参考音频通过 `upload_ref_voice.py` 脚本上传到硅基平台，并获得对应的 **speech ID**。  
-  - 在 `PsyGPT.py` 的 `voice` 字段中填写该 speech ID，以便在运行时使用目标声线进行心理咨询对话。  
+  <!-- - 将参考音频通过 `upload_ref_voice.py` 脚本上传到硅基平台，并获得对应的 **speech ID**。  
+  - 在 `PsyGPT.py` 的 `voice` 字段中填写该 speech ID，以便在运行时使用目标声线进行心理咨询对话。   -->
 
 
 ## 使用流程
